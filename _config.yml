@@ -74,7 +74,7 @@ repo: Doxio
 branch: master
 relative_source: ../Doxio/
 destination: ../Doxio-pages/
-production_url:  https://raulcoroban.github.io/Doxio/
+production_url:  https://raulcoroban.github.io/
 source_url:  https://github.com/RaulCoroban/Doxio/
 
 exclude:
