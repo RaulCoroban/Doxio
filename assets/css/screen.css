@@ -117,6 +117,7 @@ body {
     .tag-template .post-feed,
     .author-template .post-feed {
         margin-top: -120px;
+        margin-bottom: 50px;
         padding-top: 0;
     }
     .home-template .site-nav {
