@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /Doxio/
 
 # Website info
 title: Dox.io's Portfolio
@@ -72,10 +72,10 @@ lsi: False
 username: RaulCoroban
 repo: Doxio
 branch: master
-relative_source: ../
+relative_source: ../Doxio/
 destination: ../Doxio-pages/
-production_url:  https://raulcoroban.github.io/
-source_url:  https://github.com/RaulCoroban/
+production_url:  https://raulcoroban.github.io/Doxio/
+source_url:  https://github.com/RaulCoroban/Doxio/
 
 exclude:
   - node_modules
