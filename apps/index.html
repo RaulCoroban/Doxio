@@ -1,6 +1,6 @@
 ---
 layout: normal
-current: projects
+current: apps
 class: 'home-template'
 navigation: True
 ---
@@ -28,7 +28,7 @@ into the {body} of the default.hbs template -->
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             {% for post in site.posts %}
-                {% if post.categories contains 'projects' %}
+                {% if post.categories contains 'apps' %}
                     <article class="post-card-project {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
                         {% if post.cover %}
                             <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
