@@ -1,0 +1,21 @@
+<nav class="site-nav">
+    <div class="site-nav-left">
+        {% if page.navigation %}
+            {% include navigation-empty.html %}
+        {% endif %}
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            {% if site.facebook %}
+                <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+            {% endif %}
+            {% if site.twitter %}
+                <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+            {% endif %}
+                <a class="social-link social-link-li" href="https://www.linkedin.com/in/rcoroban22/" target="_blank" rel="noopener">{% include linkedin.html %}</a>
+        </div>
+        {% if site.subscribers %}
+            <a class="subscribe-button" href="https://raulcoroban.github.io/Doxio/">Switch to Writing</a>
+        {% endif %}
+    </div>
+</nav>
