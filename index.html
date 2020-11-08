@@ -65,7 +65,7 @@ into the {body} of the default.hbs template -->
                     </article>
                 {% endif %}
             {% endfor %}
-
+            <hr class="dashed">
             {% for post in paginator.posts %}
                 {% if post.categories contains 'home' %}
                     <article class="post-card-project {{ page.class }}{% unless post.cover %} no-image{% endunless %}">

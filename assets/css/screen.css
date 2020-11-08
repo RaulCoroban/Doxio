@@ -28,6 +28,11 @@ production stylesheet in assets/built/screen.css
 /* ---------------------------------------------------------- */
 @import "global.css";
 
+/* Dashed border */
+hr.dashed {
+  border-top: 1px dashed #bbb;
+}
+
 body {
     background: #f4f8fb;
 }
