@@ -437,10 +437,11 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-direction: column;
     overflow: hidden;
     margin: 0 20px 40px;
-    min-height: 300px;
+    height: 320px;
+    max-width: 320px;
     background: #fff center center;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: rgba(39,44,49,0.15) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
     transition: all 0.5s ease;
 }
@@ -480,7 +481,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-image {
     width: auto;
-    height: 200px;
+    height: -webkit-fill-available;
     background: var(--lightgrey) no-repeat center center;
     background-size: cover;
 }
@@ -548,7 +549,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
  */
 
-@media (min-width: 795px) {
+/*@media (min-width: 795px) {
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) {
         flex: 1 1 100%;
         flex-direction: row;
@@ -593,7 +594,6 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 
-/* Adjust some margins for smaller screens */
 @media (max-width: 650px) {
     .post-feed {
         padding-top: 5vw;
@@ -602,6 +602,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
         margin: 0 20px 5vw;
     }
 }
+*/
 
 
 
